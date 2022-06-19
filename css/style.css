@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.clock {
+  font-size: 150px;
+}
+
+#todo-input {
+  margin-top: 20px;
+}
+
+input {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hidden {
+  display: none;
+}
+
+#login-input,
+#todo-input {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  border-radius: 150px;
+  font-size: 15px;
+}
+
+#login-button {
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+li {
+  font-size: 29px;
+}
+
+#weather {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+}
